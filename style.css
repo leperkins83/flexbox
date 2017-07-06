@@ -1,0 +1,114 @@
+body{
+    background-color: #ddd;
+}
+
+@font-face {
+    font-family: 'Forza-Book';
+    src: url('Forza-Book.otf')
+}
+
+@font-face {
+    font-family: 'Forza-Medium';
+    src: url('Forza-Medium.otf')
+}
+
+
+.container{
+    margin: auto;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+
+}
+
+.img{
+    display: flex;
+    flex: 1;
+    padding-top: 50px;
+}
+
+.img img {
+    max-height: 20vh;
+}
+
+.login{
+    flex: 1;
+    font-family: 'Forza-Book';
+    font-size: 10px;
+
+}
+
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.email h3{
+    color: #7d7773;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.email input{
+    color: #9ccf8a;
+    border: none;
+    border-bottom: 1px solid #7d7773;
+    margin-left: 16px;
+    flex: 2;
+    padding-right: 62px;
+    font-family: 'Forza-Medium';
+
+}
+
+.password{
+    display: flex;
+    flex-direction: row;
+}
+
+.password h3{
+    color: #7d7773;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.password input{
+    color: #9ccf8a;
+    border: none;
+    border-bottom: 1px solid #7d7773;
+    margin-left: 16px;
+    flex: 2;
+    padding-right: 65px;
+    font-family: 'Forza-Medium';
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+
+}
+
+.sign-inbtn button{
+    width: 25vw;
+    height: 10vh;
+    background-color: #9ccf8a;
+    color: #fff;
+    font-family: 'Forza-Book';
+    border: none;
+}
+
+.sign-upbtn button{
+    width: 25vw;
+    height: 10vh;
+    background-color: #7d7773;
+    color: #fff;
+    font-family: 'Forza-Book';
+    border: none;
+}
